@@ -1,0 +1,14 @@
+.container {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+
+  @media (min-width: 1000px) {
+    max-width: calc(1000px - 2rem);
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

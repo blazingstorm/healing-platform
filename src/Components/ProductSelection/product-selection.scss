@@ -1,0 +1,20 @@
+.product-selection__item {
+  display: flex;
+  align-items: baseline;
+  margin-bottom: 1rem;
+}
+
+.product-selection__item-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 1rem;
+}
+
+.product-selection__item-label {
+  font-weight: bold;
+}
+
+.product-selection__item--selected {
+  background: lightgray;
+}

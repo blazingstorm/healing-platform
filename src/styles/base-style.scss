@@ -1,0 +1,11 @@
+#root {
+  min-height: 100vh;
+  display: flex;
+}
+
+button {
+  &:hover {
+    background: lightgray;
+    cursor: pointer;
+  }
+}
