@@ -10,6 +10,11 @@ const starterPackage: StarterPackage = {
   label: "Starter",
   description:
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. At hoc in eo M. Quae similitudo in genere etiam humano apparet. Eam stabilem appellas.",
+  summaryLong: [
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+  ],
 };
 
 const basicPackage: BasicPackage = {
@@ -17,11 +22,6 @@ const basicPackage: BasicPackage = {
   label: "Basis",
   description:
     "Quid enim de amicitia statueris utilitatis causa expetenda vides. Duo Reges: constructio interrete.",
-  additionalInformation: {
-    body: "",
-    mind: "",
-    soul: "",
-  },
   symptom: {
     level: 1,
     name: "",
@@ -35,11 +35,6 @@ const intensivePackage: IntensivePackage = {
   label: "Intensiv",
   description:
     "Sed nimis multa. Sed quot homines, tot sententiae; Zenonis est, inquam, hoc Stoici. Tuo vero id quidem, inquam, arbitratu.",
-  additionalInformation: {
-    body: "",
-    mind: "",
-    soul: "",
-  },
   symptom: {
     level: 1,
     name: "",

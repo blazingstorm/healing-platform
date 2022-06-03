@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { CheckoutPageProps } from "./CheckoutPageProps";
 import Summary from "../../Components/Summary/Summary";
-import ProductSelection from "../../Components/ProductSelection/ProductSelection";
+import PackageSelection from "../../Components/ProductSelection/PackageSelection";
 import { PackageProps } from "../../Components/Package/PackageProps";
 
 export const CheckoutPage = ({
@@ -20,9 +20,9 @@ export const CheckoutPage = ({
       {currentStep === 1 ? (
         <Summary selectedProduct={selectedProduct} onGoBack={() => goBack()} />
       ) : (
-        <ProductSelection
-          selectedProduct={selectedProduct}
-          onSelect={(selectedProduct) => setSelectedProduct(selectedProduct)}
+        <PackageSelection
+          selectedPackage={selectedProduct}
+          onPackageSelection={(selectedProduct) => setSelectedProduct(selectedProduct)}
           onGoBack={() => returnToLandingPage()}
           onContinue={() => setCurrentStep(1)}
         />
