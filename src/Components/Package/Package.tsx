@@ -9,7 +9,7 @@ const starterPackage: StarterPackage = {
   type: "starter",
   label: "Starter",
   description:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. At hoc in eo M. Quae similitudo in genere etiam humano apparet. Eam stabilem appellas.",
+    "Lorem ipsum dolor sit amet, consectetur adipiscing elit. At hoc in eo M. Quae similitudo in genere etiam humano apparet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. At hoc in eo M. Quae similitudo in genere etiam humano apparet.",
   summaryLong: [
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
     "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
