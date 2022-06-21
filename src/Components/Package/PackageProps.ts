@@ -9,7 +9,7 @@ export type Package = {
 };
 
 export type AdvancedPackage = Package & {
-  symptom: Symptom;
+  symptoms: Symptom[];
 };
 
 export type StarterPackage = Package & {

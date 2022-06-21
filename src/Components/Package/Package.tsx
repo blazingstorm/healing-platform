@@ -22,12 +22,22 @@ const basicPackage: BasicPackage = {
   label: "Basis",
   description:
     "Quid enim de amicitia statueris utilitatis causa expetenda vides. Duo Reges: constructio interrete.",
-  symptom: {
+  symptoms: [{
     level: 1,
-    name: "",
+    name: "Selbstbewusstsein Haut",
     treatmentDuration: 3,
     description: "",
-  },
+  },{
+    level: 1,
+    name: "Vertrauen Immunsystem",
+    treatmentDuration: 3,
+    description: "",
+  },{
+    level: 1,
+    name: "Loslassen Gewicht. Essen",
+    treatmentDuration: 3,
+    description: "",
+  }],
 };
 
 const intensivePackage: IntensivePackage = {
@@ -35,12 +45,22 @@ const intensivePackage: IntensivePackage = {
   label: "Intensiv",
   description:
     "Sed nimis multa. Sed quot homines, tot sententiae; Zenonis est, inquam, hoc Stoici. Tuo vero id quidem, inquam, arbitratu.",
-  symptom: {
+  symptoms: [{
     level: 1,
-    name: "",
+    name: "Intensiv 0",
     treatmentDuration: 3,
     description: "",
-  },
+  },{
+    level: 1,
+    name: "Intensiv 1",
+    treatmentDuration: 3,
+    description: "",
+  },{
+    level: 1,
+    name: "Intensiv 2",
+    treatmentDuration: 3,
+    description: "",
+  }],
 };
 
 export const packages: PackageProps[] = [

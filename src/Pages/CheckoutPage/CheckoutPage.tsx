@@ -9,7 +9,7 @@ export const CheckoutPage = ({
   returnToLandingPage,
 }: CheckoutPageProps): JSX.Element => {
   const [currentStep, setCurrentStep] = useState(0);
-  const [selectedPackage, setSelectedPackage] =
+  const [selectedPackageType, setSelectedPackageType] =
     useState<PackageProps>(packages[0]);
 
   const goBack = () => {
@@ -19,11 +19,11 @@ export const CheckoutPage = ({
   return (
     <div className={"checkout-page"}>
       {currentStep === 1 ? (
-        <Summary selectedProduct={selectedPackage} onGoBack={() => goBack()} />
+        <Summary selectedProduct={selectedPackageType} onGoBack={() => goBack()} />
       ) : (
         <PackageSelection
-          selectedPackage={selectedPackage}
-          onPackageSelection={(selectedProduct) => setSelectedPackage(selectedProduct)}
+          selectedPackage={selectedPackageType}
+          onPackageTypeSelection={(selectedPackageType) => setSelectedPackageType(selectedPackageType)}
           onGoBack={() => returnToLandingPage()}
           onContinue={() => setCurrentStep(1)}
         />
